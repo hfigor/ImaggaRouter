@@ -1,0 +1,46 @@
+# Xcode Swift  From: https://github.com/github/gitignore
+# Ripped out not needed stuff - Frank Cipolla 20181128
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+# A leading "**" followed by a slash means match in all directories.
+# For example, "**/foo" matches file or directory "foo" anywhere, the same as pattern "foo".
+# "**/foo/bar" matches file or directory "bar" anywhere that is directly under directory "foo".
+**/xcuserdata
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/*
+
